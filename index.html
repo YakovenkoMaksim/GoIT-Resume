@@ -5,14 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <title>Resume</title>
 </head>
 
 <body>
   <!--Main-->
-  <div>
+  <div class="main">
     <!--Main content-->
-    <div>
+    <div class="main_content">
       <!--About user-->
       <div>
         <h2>Front-End Developer</h2>
@@ -24,21 +28,19 @@
         </p>
       </div>
       <!--Projects-->
-      <div>
-        <div>
-          <h3>Projects</h3>
-          <ol>
-            <li><a href="https://github.com/YakovenkoMaksim/First-site-with-easy-apps.git" target="_blank"> First site
-                with easy apps (GitHub)</a> ....................... [ HTML, CSS, JS, Bootstrap ]</li>
-            <li><a href="https://github.com/YakovenkoMaksim/Cuda-template.git" target="_blank">My layout project
-                (GitHub)</a> .................................................. [ HTML, CSS, JS ]</li>
-            <li><a href="https://github.com/YakovenkoMaksim" target="_blank">Yakovenko Maksim |
-                GitHub</a> ............................................... [ HTML, CSS, JS ]</li>
-          </ol>
-        </div>
+      <div class="projects">
+        <h3 class="project_title">Projects</h3>
+        <ol>
+          <li><a href="https://github.com/YakovenkoMaksim/First-site-with-easy-apps.git" target="_blank"> First site
+              with easy apps (GitHub)</a> ....................... [ HTML, CSS, JS, Bootstrap ]</li>
+          <li><a href="https://github.com/YakovenkoMaksim/Cuda-template.git" target="_blank">My layout project
+              (GitHub)</a> .................................................. [ HTML, CSS, JS ]</li>
+          <li><a href="https://github.com/YakovenkoMaksim" target="_blank">Yakovenko Maksim |
+              GitHub</a> ............................................... [ HTML, CSS, JS ]</li>
+        </ol>
       </div>
       <!--Work-->
-      <div>
+      <div class="work">
         <h3>Work Experience</h3>
         <!--Company 1-->
         <div>
@@ -70,16 +72,23 @@
           </ul>
         </div>
         <!--Education-->
-        <div>
+        <div class="education">
           <h3>Education</h3>
           <h4>Kyiv National University of Construction and Architecture</h4>
           <h4>Industrial and civil engineering</h4>
           <p>2005 - 2010 | Kyiv, Ukraine</p>
         </div>
+        <div>
+          <h3>Certificates</h3>
+          <img src="img/certificate_goit.png" width="250px" alt="certificate_html">
+          <img src="img/certificate_html.jpg" width="250px" alt="certificate_html">
+          <img src="img/certificate_jquery.jpg" width="250px" alt="certificate_jquery">
+          <img src="img/certificate_js_essensial.jpg" width="250px" alt="certificate_js">
+        </div>
       </div>
     </div>
     <!--Saidbar-->
-    <aside>
+    <aside class="sidebar">
       <img src="img/025_sq_2000.jpg" width="200px" alt="my_photo">
       <!-- About -->
       <div>
@@ -108,9 +117,6 @@
           <li>Adobe Photoshop</li>
           <li>Jira</li>
         </ul>
-        <img src="img/certificate_html.jpg" width="300px" alt="certificate_html">
-        <img src="img/certificate_jquery.jpg" width="300px" alt="certificate_jquery">
-        <img src="img/certificate_js_essensial.jpg" width="300px" alt="certificate_js">
       </div>
       <!--Soft Skills-->
       <div>
