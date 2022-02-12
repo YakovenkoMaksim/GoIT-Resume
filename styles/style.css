@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -10,34 +11,138 @@ body {
 .main {
   display: flex;
   flex-direction: row-reverse;
-  background-color: #f5f7fa;
-  width: 1200px;
   margin: 0 auto;
 }
 
 .main-content {
   background-color: #fff;
-  width: 830px;
+  box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
+  width: 740px;
+  padding: 105px 0 105px 90px;
+  margin-right: 90px;
+}
+
+.about-user {
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.about-user h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 25px;
+  line-height: 55px;
+}
+.about-user h2 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+.about-user p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
 }
 
 /* Projects styles */
 
-.projects {
-}
-
-.project-title {
+.title {
   font-size: 22px;
+  font-weight: bold;
+  line-height: 27px;
+  margin-bottom: 10px;
   color: #000;
 }
 
+.projects {
+  margin-bottom: 50px;
+}
+
+.project-item,
+.project-bracket {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.projects ol {
+  padding-left: 15px;
+}
+
+.project,
+.project-item a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+  padding-left: 5px;
+}
 /* Work styles */
 
 .work {
+  margin-bottom: 45px;
 }
 
+.work h4,
+.education h4 {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.work p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.work ul {
+  padding: 10px;
+}
+
+.work li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
 /* Education styles */
 
 .education {
+  margin-bottom: 45px;
+}
+
+.education-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.certificates img {
+  width: 300px;
+  padding: 5px;
 }
 
 /* Sidebar style */
