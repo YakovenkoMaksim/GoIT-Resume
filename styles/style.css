@@ -150,6 +150,10 @@ body {
   padding: 5px;
 }
 
+.certificates img:hover {
+  transform: scale(2);
+}
+
 /* Sidebar style */
 
 .sidebar {
