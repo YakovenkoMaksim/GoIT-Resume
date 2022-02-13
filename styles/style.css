@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
 }
 
+.lang a:hover {
+  text-decoration: underline;
+}
+
 .main-content {
   background-color: #fff;
   box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
@@ -43,7 +47,8 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  width: 400px;
+  width: 500px;
+  text-align: justify;
 }
 
 /* Projects styles */
