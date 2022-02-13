@@ -1,10 +1,10 @@
-@media (min-width: 360px) {
+/* @media (min-width: 360px) {
   .main {
     width: 1200px;
   }
   .main-content {
   }
-}
+} */
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -17,21 +17,16 @@ body {
 /* Main styles */
 
 .main {
-  display: flex;
-  flex-direction: row-reverse;
+  display: grid;
+  grid-template-columns: 370px auto;
   margin: 0 auto;
-}
-
-.lang a:hover {
-  text-decoration: underline;
+  width: 1200px;
 }
 
 .main-content {
   background-color: #fff;
   box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
-  width: 740px;
-  padding: 105px 0 105px 90px;
-  margin-right: 90px;
+  padding: 105px 90px;
 }
 
 .about-user {
@@ -170,14 +165,15 @@ body {
 /* Sidebar style */
 
 .sidebar {
-  width: 370px;
+  grid-column: 1;
+  grid-row: 1;
   background-color: #1e2939;
   padding-top: 40px;
 }
 
 .photo {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   border-radius: 50%;
   width: 200px;
 }
@@ -199,9 +195,8 @@ body {
   margin-right: 5px;
 }
 
-.about,
-.tech-skills,
-.soft-skills {
+.about {
+  margin-bottom: 50px;
 }
 
 .contacts {
